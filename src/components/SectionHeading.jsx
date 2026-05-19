@@ -7,7 +7,7 @@ export default function SectionHeading({ title, subtitle }) {
         {title}
       </h2>
       {subtitle && (
-        <p className="text-gray-600 dark:text-gray-400 text-lg">{subtitle}</p>
+        <p className="text-gray-700 dark:text-gray-300 text-lg">{subtitle}</p>
       )}
     </div>
   );
